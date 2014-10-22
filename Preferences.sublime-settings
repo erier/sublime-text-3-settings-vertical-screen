@@ -1,0 +1,51 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
+
+/*
+	Full Settings Reference Guide:
+	http://docs.sublimetext.info/en/latest/reference/settings.html
+*/
+
+/*
+	These settings are meant for portrait screen orientation.
+
+	|←←← 1080 →→→|
+	|            ↑
+	|            ↑
+	|            ↑
+	|            ↑
+	|            ↑
+	|            ↑
+	|           1920
+	|            ↓
+	|            ↓
+	|            ↓
+	|            ↓
+	|            ↓
+	|            ↓
+	|------------|
+
+*/
+
+{
+	// Toggles automatic indentation
+	"auto_indent": true,
+
+	// Set to true to remove white space on save.
+	"trim_trailing_white_space_on_save": true,
+
+	// Valid values: none, selection, all.
+	"draw_white_space": "all",
+
+	// If set to false, long lines will be clipped instead of wrapped. Scroll the screen horizontally to see the clipped text.
+	"word_wrap": true,
+
+	//If greater than 0, wraps long lines at the specified column as opposed to the window width. Only takes effect if word_wrap is set to true.
+	"wrap_width": 80,
+
+	// Columns in which to display vertical rules. Accepts a list of numeric values (such as [79, 89, 99]) or a single numeric value (for example, 79).
+	"rulers": [80],
+
+	// Number of spaces a tab is considered equal to.
+	"tab_size": 2,
+}

@@ -1,4 +1,4 @@
-sublime-text-3-settings-vertical-screen
-=======================================
+Sublime Text 3 Vertical Screen (1080x1920)
+==========================================
 
-Basic Sublime Text 3 settings for a 1080x1920 vertical screen
+Frustrated by the default Sublime Text 3 settings on your vertical screen? Try these settings on for size ...
