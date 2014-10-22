@@ -1,0 +1,4 @@
+[
+	// ⌘+0 (previously ⌘+k+b)
+	{ "keys": ["super+0"], "command": "toggle_side_bar" },
+]
